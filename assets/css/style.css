@@ -653,6 +653,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .blog{padding:120px 0 90px;}
 .blog-content{margin-top: 80px;}
 
+.row {
+    display: flex;
+    justify-content: center; /* Centraliza as divs horizontalmente */
+    flex-wrap: wrap; /* Faz com que os itens se ajustem em múltiplas linhas em telas pequenas */
+}
+
 .single-blog-item{
     margin-bottom: 30px;
     -webkit-transition: .3s; 
@@ -689,7 +695,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     width: 80%;
     margin-top: 20px;
 }
-
 
 /*-------------------------------------
         11. Subscribe
