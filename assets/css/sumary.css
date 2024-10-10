@@ -1,0 +1,254 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+	color:#a09e9c;
+    text-transform:initial;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(232, 235, 238, 0.829);
+    margin: 0 auto; /* Centraliza o container */
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha se necessário */
+}
+
+.book-image {
+    max-width: 40%; /* Ajusta a imagem para ocupar até 40% da largura */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.book-details {
+    flex: 1; /* O conteúdo de texto ocupará o restante da largura */
+}
+
+.book-details h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.description p, li {
+    text-align: justify;
+    margin: 0px 15px;
+}
+
+#area-download {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .book-container {
+        flex-direction: column; /* Alinha verticalmente em telas menores */
+        padding: 10px;
+        margin: 0px 10px;
+    }
+
+    .book-image {
+        max-width: 100%; /* Imagem ocupará 100% da largura em telas pequenas */
+        margin-bottom: 20px; /* Espaçamento entre imagem e detalhes */
+    }
+
+    .book-details {
+        width: 100%; /* O conteúdo de texto também ocupará 100% */
+    }
+
+    .description p {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .book-details h1 {
+        font-size: 20px; /* Reduz o tamanho do título em telas muito pequenas */
+    }
+
+    .download-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+.contact{
+    padding:100px ;
+ 
+}
+
+.body{
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+	color:#a09e9c;
+    text-transform:initial;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+	margin: 0;
+	color:#343a3f;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+p {
+	margin: 0;
+	color:#767f86;
+	font-size:14px;
+    line-height: 1.8;
+    text-transform: initial;
+}
+
+/* Estilo do formulário de avaliação */
+.review-section {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.review-section h2, .review-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#reviewForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#comment {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating .icon {
+    font-size: 25px;
+    color: #ffd700;
+    cursor: pointer;
+}
+
+#submitReview {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitReview:hover {
+    background-color: #45a049;
+}
+
+/* Comentários */
+#comment-section {
+    margin-top: 40px;
+}
+
+#commentList {
+    list-style: none;
+    padding: 0;
+}
+
+#commentList li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#commentList li .stars {
+    color: #ffd700;
+    margin-bottom: 5px;
+}
+
+.star-rating .icon {
+    font-size: 30px;
+    color: #ccc; /* cor padrão cinza */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.star-rating .icon.active, .star-rating .icon:hover, .star-rating .icon:hover ~ .icon {
+    color: #ffd700; /* cor amarela */
+}
+
+.star-rating .icon:hover ~ .icon {
+    color: #ccc; /* garante que as estrelas à direita não fiquem amarelas */
+}
+
+/*Título e descrição do livro*/
+
+.book-details {
+    flex: 1;
+}
+
+.book-details h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.description p, li {
+    text-align: justify;
+    margin: 0px 15px;
+}
+
+.book-details ul {
+    margin: 10px 0px;
+}
+
+.explore-rating{
+    color: #5c5959;
+    font-weight: bold;
+}

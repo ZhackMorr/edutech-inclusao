@@ -1,0 +1,810 @@
+<!doctype html>
+<html class="no-js" lang="pt-br">
+
+<head>
+    <!-- Meta tags principais -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonte da família Poppins -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Título do site -->
+    <title>EduTech Inclusão</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+
+    <!-- CSS para fontes e ícones -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/linearicons.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <!-- Início do cabeçalho -->
+    <header id="header-top" class="header-top">
+        <ul>
+            <li>
+                <div class="header-top-left">
+                    <ul>
+                        <!-- Pesquisa removida -->
+                    </ul>
+                </div>
+            </li>
+            <li class="head-responsive-right pull-right">
+                <div class="header-top-right">
+                    <ul>
+                        <li class="header-top-contact">
+                            <a href="/login.html">Logar</a>
+                        </li>
+                        <li class="header-top-contact">
+                            <a href="/login.html">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </header><!-- Fim do cabeçalho -->
+    
+    <!-- Área superior (barra de navegação) -->
+    <section class="top-area">
+        <div class="header-area">
+            <!-- Início da navegação -->
+            <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+                <div class="container">
+                    <!-- Início da navegação do cabeçalho -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Robin<span>BOOKS</span></a>
+                    </div><!-- Fim da navegação do cabeçalho -->
+
+                    <!-- Menu colapsável -->
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li class="scroll active"><a href="#home">Home</a></li>
+                            <li class="scroll"><a href="#works">Como funciona</a></li>
+                            <li class="scroll"><a href="#explore">Explorar</a></li>
+                            <li class="scroll"><a href="#blog">Blog</a></li>
+                            <li class="scroll"><a href="#contact">Contato</a></li>
+                        </ul><!-- Fim da navegação -->
+                    </div><!-- Fim do menu colapsável -->
+                </div><!-- Fim do container -->
+            </nav><!-- Fim da navegação -->
+        </div><!-- Fim da área do cabeçalho -->
+        <div class="clearfix"></div>
+    </section><!-- Fim da área superior -->
+
+    <!-- Seção de boas-vindas -->
+    <section id="home" class="welcome-hero">
+        <div class="container">
+            <div class="welcome-hero-txt">
+                <h2>O melhor lugar para ler <br> tudo o que você precisa</h2>
+                <p>Livros sobre diversos conteúdos ao alcance de um clique!</p>
+            </div>
+            <div class="welcome-hero-serch-box">
+                <div class="welcome-hero-form">
+                    <div class="single-welcome-hero-form">
+                        <h3>O que você quer ler?</h3>
+                        <form action="index.html">
+                            <input type="text" placeholder="Ex: Tecnologia, Matemática, Medicina"/>
+                        </form>
+                        <div class="welcome-hero-form-icon">
+                            <i class="flaticon-list-with-dots"></i>
+                        </div>
+                    </div>
+                    <div class="single-welcome-hero-form">
+                        <h3>Autor</h3>
+                        <form action="index.html">
+                            <input type="text" placeholder="Procure por um autor específico"/>
+                        </form>
+                        <div class="welcome-hero-form-icon">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M4.5 17H4a1 1 0 0 1-1-1 3 3 0 0 1 3-3h1m0-3.05A2.5 2.5 0 1 1 9 5.5M19.5 17h.5a1 1 0 0 0 1-1 3 3 0 0 0-3-3h-1m0-3.05a2.5 2.5 0 1 0-2-4.45m.5 13.5h-7a1 1 0 0 1-1-1 3 3 0 0 1 3-3h3a3 3 0 0 1 3 3 1 1 0 0 1-1 1Zm-1-9.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome-hero-serch">
+                    <button class="welcome-hero-btn" onclick="window.location.href='#'">
+                        Buscar  <i data-feather="search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section><!-- Fim da seção de boas-vindas -->
+		
+			<div style="margin-top: 100px;" class="container">
+				<div class="section-header">
+					<h2>Tópicos mais procurados</h2>
+					<p>Em alta</p>
+				</div><!--/.section-header-->
+
+		<!--MAIS PROCURADOS Fim -->
+
+			
+		<div style="margin-top: 120px;"></div>
+		<!--list-topics COMEÇO -->
+		<section id="list-topics" class="list-topics">
+			<div class="container">
+				<div class="list-topics-content">
+					<ul>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<!--<i class="flaticon-restaurant"></i> -->
+
+									<svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+										<path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M4 4h6v6H4V4Zm10 10h6v6h-6v-6Zm0-10h6v6h-6V4Zm-4 10h.01v.01H10V14Zm0 4h.01v.01H10V18Zm-3 2h.01v.01H7V20Zm0-4h.01v.01H7V16Zm-3 2h.01v.01H4V18Zm0-4h.01v.01H4V14Z"/>
+										<path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M7 7h.01v.01H7V7Zm10 10h.01v.01H17V17Z"/>
+									  </svg>
+									  
+									  
+								</div>
+								<h2><a href="#">Tecnologia</a></h2>
+								<p>100 Livros encontrados</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 17.345a4.76 4.76 0 0 0 2.558 1.618c2.274.589 4.512-.446 4.999-2.31.487-1.866-1.273-3.9-3.546-4.49-2.273-.59-4.034-2.623-3.547-4.488.486-1.865 2.724-2.899 4.998-2.31.982.236 1.87.793 2.538 1.592m-3.879 12.171V21m0-18v2.2"/>
+									  </svg>
+									  
+								</div>
+								<h2><a href="#">Contabilidade</a></h2>
+								<p>214 Livros encontrados</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 0 1-.5-17.986V3c-.354.966-.5 1.911-.5 3a9 9 0 0 0 9 9c.239 0 .254.018.488 0A9.004 9.004 0 0 1 12 21Z"/>
+									  </svg>
+									  
+								</div>
+								<h2><a href="#">Astrologia</a></h2>
+								<p>185 Livros encontrados</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.041 13.862A4.999 4.999 0 0 1 17 17.831V21M7 3v3.169a5 5 0 0 0 1.891 3.916M17 3v3.169a5 5 0 0 1-2.428 4.288l-5.144 3.086A5 5 0 0 0 7 17.831V21M7 5h10M7.399 8h9.252M8 16h8.652M7 19h10"/>
+									  </svg>
+									  
+								</div>
+								<h2><a href="#">Medicina</a></h2>
+								<p>200 listings</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+										<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m13 19 3.5-9 3.5 9m-6.125-2h5.25M3 7h7m0 0h2m-2 0c0 1.63-.793 3.926-2.239 5.655M7.5 6.818V5m.261 7.655C6.79 13.82 5.521 14.725 4 15m3.761-2.345L5 10m2.761 2.655L10.2 15"/>
+									  </svg>
+									  
+								</div>
+								<h2><a href="#">Linguas</a></h2>
+								<p>120 Livros encontrados</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.list-topics-->
+		<!--list-topics FIM-->
+
+		<!--works start -->
+		<section id="works" class="works">
+			<div class="container">
+				<div class="section-header">
+					<h2>Como funciona?</h2>
+					<p>Aprenda mais sobre como nossa iniciativa funciona! Temos parceria com a <a href="https://archive.org/">Internet Archive</a>!</p>
+					<p>Visando a preservação de conteudo e a disponibilização de maneira gratuita, facilitada e licenciada de livros dos mais variádos tópicos!</p>
+					<p>Temos um amplo conteúdo em português do Brasil, mas se você quer ter acesso a livros de outros idiomas, saiba que também temos um amplo conteúdo!</p>				
+				</div><!--/.section-header-->
+				<div class="works-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-lightbulb-idea"></i>
+								</div>
+								<h2><a href="#">Escolha <span> o que quer</span> ler</a></h2>
+								<p>
+									Escolha entre nossas fiversas bibliotecas de livros gratuitos para evoluir o seu conhecimento! 
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-networking"></i>
+								</div>
+								<h2><a href="#">Ache <span> o Livro o Que Procurando</span></a></h2>
+								<p>
+									Após encontrar o livro que deseja, pode começar de imediato a leitura sem nenhum custo adicional. 
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-location-on-road"></i>
+								</div>
+								<h2><a href="#">Explore <span> Novas</span> Categorias</a></h2>
+								<p>
+									Explore novas categorias e novas áreas de conhecimento, aprenda sobre algo novo! 
+								</p>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+		
+		</section><!--/.works-->
+		<!--works end -->
+
+		<!--Livros Recomendados/Mais acessados --> 
+		<section id="explore" class="explore">
+			<div class="container">
+				<div class="section-header">
+					<h2>Livros mais Acessados</h2>
+					<p>Explore os mais diversos conteúdos sobre tecnologia e áreas em ascenção.</p>
+				</div><!--/.section-header-->
+				<div class="explore-content">
+					<div class="row">
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img" id="cod1">
+									<a href="/pagebook1.html">
+										<img src="assets/images/books/Codigo-limpo.jpg" alt="explore image">
+									</a>
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">Tecnologia</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-1">
+									<h2><a href="/pagebook1.html">Código limpo: Agile Software</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4,9
+										</span>
+										2.3M Acessos
+										<span class="explore-price-box">
+											<span class="explore-price"><a href="https://en.wikipedia.org/wiki/Robert_C._Martin">Robert Martin</a></span>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="https://en.wikipedia.org/wiki/Robert_C._Martin">
+														<img src="assets/images/writer/robert-cecil-martin.jpg" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas não precisa ser assim.
+
+													O renomado especialista em software, Robert C. Martin, apresenta um paradigma revolucionário com Código limpo: Habilidades Práticas do Agile Software. Martin se reuniu com seus colegas do Mentor Object para destilar suas melhores e mais ágeis práticas de limpar códigos “dinamicamente” em um livro que introduzirá gradualmente dentro de você os valores da habilidade de um profissional de softwares e lhe tornar um programador melhor –mas só se você praticar.
+
+													Que tipo de trabalho você fará? Você lerá códigos aqui, muitos códigos. E você deverá descobrir o que está correto e errado nos códigos. E, o mais importante, você terá de reavaliar seus valores profissionais e seu comprometimento com o seu ofício.
+
+													Código limpo está divido em três partes. Na primeira há diversos capítulos que descrevem os princípios, padrões e práticas para criar um código limpo.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<a href="/pagebook2.html">
+										<img src="assets/images/books/Atlas-de-Anatomia-Humana-Netter-6a-Ed-booksmedicos.jpg" alt="explore image">
+									</a>
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">Medicina</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-1">
+									<h2><a href="/pagebook2.html">Netter - Atlas de Anatomia Humana 6ª Edição</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4,8
+										</span>
+										7.6M Acessos
+										<span class="explore-price-box">
+											<span class="explore-price"><a href="https://www.google.com/search?q=R.+Shane+Tubbs&oq=R.+Shane+Tubbs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzg3NGowajSoAgCwAgE&sourceid=chrome&ie=UTF-8">R. Shane Tubbs</a></span>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/writer/Frank H. Netter.jpg" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Netter é o atlas de anatomia humana que oferece descrições inigualáveis e detalhadas do corpo humano – todas a partir de uma perspectiva clínica. Com esta ênfase nas relações anatômicas e em imagens clinicamente relevantes, o atlas do Dr. Netter fornece um vocabulário visual coerente e duradouro para compreensão da anatomia e de como ela se aplica à medicina atual. Dentre as muitas novidades desta 6ª edição, estão as novas ilustrações e imagens radiográficas modernas que proporcionam aos alunos uma visão do atual significado clínico e das perspectivas que desvendam relações anatômicas complexas; Tabelas de músculos em apêndices de acesso fácil no final de cada seção; e conteúdo complementar gratuito no Student Consult, com pranchas extras, vídeos com discussões de pranchas anatômicas, testes com perguntas e respostas objetivas e anatomia seccional transversa ilustrativa.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<a href="/pagebook3.html">
+										<img src="assets/images/books/como-dizer-tudo-em-ingles.jpg" alt="explore image">
+									</a>
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">Língua</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-1">
+									<h2><a href="/pagebook3.html">Como Dizer Tudo em Inglês</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4,4
+										</span>
+										1.7M Acessos
+										<span class="explore-price-box">
+
+											<span class="explore-price">
+												<a href="https://www.google.com/search?q=Ron+Martinez&sca_esv=5f79ce677043d4b2&biw=1920&bih=957&sxsrf=ADLYWII8YY6HXLq-FhR_XyyqH012XGoAIQ%3A1726433536524&ei=AEnnZt_XH-fY1sQP3aPq8Ac&ved=0ahUKEwjf17CN6sWIAxVnrJUCHd2RGn4Q4dUDCA8&uact=5&oq=Ron+Martinez&gs_lp=Egxnd3Mtd2l6LXNlcnAiDFJvbiBNYXJ0aW5lejIKECMYgAQYJxiKBTIGEAAYBxgeMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDILEC4YgAQYxwEYrwEyBRAAGIAEMgUQABiABDIFEAAYgARIkwJQAFgAcAB4AJABAJgBgwGgAYMBqgEDMC4xuAEDyAEA-AEBmAIBoAKOAZgDAJIHAzAuMaAHzgg&sclient=gws-wiz-serp">Ron Martinez</a>
+											</span>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="/pagebook3.html">
+														<img src="assets/images/writer/Ron Martinez.jpg" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Este livro introduz um conceito completamente novo na aprendizagem de um idioma. É uma ferramenta que auxilia o leitor a se expressar oralmente ou por escrito, usando as palavras certas no momento certo. A obra é projetada para ser usada durante anos, sempre que o usuário quiser achar uma expressão em inglês. Levando-se em conta que um idioma é mais que palavras, é cultura, costume e atitude, o livro oferece um conselho cultural-lingüístico onde for relevante. O leitor achará centenas de expressões de uso cotidiano nas seis seções em que se divide o livro:
+													- Inglês Geral
+													- Inglês Comercial
+													- Inglês para Palestras e Reuniões
+													- Inglês para Turismo e Hotelaria
+													- Morando no Exterior
+													- Expressões Comuns em Português
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<a href="/pagebook4.html">
+										<img src="assets/images/books/Contabilidade-Geral-Esquematizada-2Ed.jpg" alt="explore image">
+									</a>
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">Contábel</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-1">
+									<h2><a href="/pagebook4.html">Contabilidade Geral Esquematizada</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4,2
+										</span>
+										3.3M Acessos
+										<span class="explore-price-box">
+											<span class="explore-price"><a href="https://www.google.com/search?q=Autor+Eugenio+Montoto&sca_esv=5f79ce677043d4b2&sxsrf=ADLYWIJ3JepqddJO4A_7U4Iv0gB0Urqq7Q%3A1726433978449&ei=ukrnZuuDG7zf1sQPkoCOyA0&ved=0ahUKEwjryI3g68WIAxW8r5UCHRKAA9kQ4dUDCA8&oq=Autor+Eugenio+Montoto&gs_lp=Egxnd3Mtd2l6LXNlcnAiFUF1dG9yIEV1Z2VuaW8gTW9udG90bzIEECMYJzIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogRIkxpQ6AJYgAVwAXgBkAEAmAGBAaAB-wGqAQMwLjK4AQzIAQD4AQGYAgOgAocCwgIKEAAYsAMY1gQYR5gDAIgGAZAGApIHAzEuMqAH7QQ&sclient=gws-wiz-serp">Eugenio Montoto</a></span>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/writer/Eugenio Montoto.jpg" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Metodologia pioneira, idealizada com base na experiência de vários anos de magistério, buscando sempre otimizar a preparação dos alunos, bem como atender às suas necessidades, a metodologia do "Esquematizado" de Pedro Lenza está agora aplicada em uma Coleção que reúne as mais diversas disciplinas para concursos públicos. No volume de Contabilidade, o leitor vai encontrar temas como: patrimônio e resultado; escrituração contábil; operações financeiras e instrumentos financeiros; provisões; passivos e ativos contingentes; operações com mercadorias e impostos; balanço patrimonial ativo e passivo; demonstração do resultado do exercício (DRE); demonstração das mutações; demonstração dos fluxos de caixa (DFC), dentre outros.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img" id="cod2">
+									<a href="/pagebook5.html">
+										<img src="assets/images/books/Mindset.jpg" alt="explore image">
+									</a>
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">Psicologia</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-1">
+									<h2><a href="/pagebook5.html">Mindset: A nova psicologia do sucesso</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4,7
+										</span>
+										7.8M Acessos
+										<span class="explore-price-box">
+											<span class="explore-price"><a href="https://www.google.com/search?q=Carol+S.+Dweck&oq=Carol+S.+Dweck&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDzSAQczOTRqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#vhid=Pm-CrFr-iLxvgM&vssid=l"></a>Carol S. Dweck</span>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/writer/Carol S. Dweck.jpg" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Carol S. Dweck, ph.D., professora de psicologia na Universidade Stanford e especialista internacional em sucesso e motivação, desenvolveu, ao longo de décadas de pesquisa, um conceito fundamental: a atitude mental com que encaramos a vida, que ela chama de “mindset”, é crucial para o sucesso. Dweck revela de forma brilhante como o sucesso pode ser alcançado pela maneira como lidamos com nossos objetivos. O mindset não é um mero traço de personalidade, é a explicação de por que somos otimistas ou pessimistas, bem-sucedidos ou não. Ele define nossa relação com o trabalho e com as pessoas e a maneira como educamos nossos filhos. É um fator decisivo para que todo o nosso potencial seja explorado.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img" id="cod3">
+									<a href="/pagebook6.html">
+										<img src="assets/images/books/O-poder-deo-habito.jpg" alt="explore image">
+									</a>
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">Psicologia</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-1">
+									<h2><a href="/pagebook6.html">O poder do hábito</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4,7
+										</span>
+										4.1M Acessos
+										<span class="explore-price-box">
+											<span class="explore-price"><a href="https://www.google.com/search?q=Charles+Duhigg&oq=Charles+Duhigg&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBBzM2NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">Charles Duhigg</a></span>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/writer/Charles Duhigg.jpg" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela mudaram de maneira fundamental. Publicitários da Procter & Gamble observaram vídeos de pessoas fazendo a cama. Tentavam desesperadamente descobrir como vender um novo produto chamado Febreze, que estava prestes a se tornar um dos maiores fracassos na história da empresa. De repente, um deles detecta um padrão quase imperceptível - e, com uma sutil mudança na campanha publicitária, Febreze começa a vender um bilhão de dólares por anos. Um diretor executivo pouco conhecido assume uma das maiores empresas norte-americanas. Seu primeiro passo é atacar um único padrão entre os funcionários - a maneira como lidam com a segurança no ambiente de trabalho -, e logo a empresa começa a ter o melhor desempenho no índice Dow Jones.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.explore-->
+		<!--explore end -->
+
+		<!-- statistics strat -->
+		<section id="statistics"  class="statistics">
+			<div class="container">
+				<div class="statistics-counter"> 
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">783 </div> <span>M+</span>
+							</div><!--/.statistics-content-->
+							<h3>Leituras</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">5</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>Categorias</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">135</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>Livros</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">750</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>Avaliações</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+				</div><!--/.statistics-counter-->	
+			</div><!--/.container-->
+
+		</section><!--/.counter-->	
+		<!-- statistics end -->
+
+		<!--blog start -->
+		<section id="blog" class="blog" >
+			<div class="container">
+				<div class="section-header">
+					<h2>Criadores</h2>
+					<p>O site surgiu como um insentivo a leitura para as periferias!</p>
+				</div><!--/.section-header-->
+				<div class="blog-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-txt">
+									<h2><a href="#">Isaac Moraes de Matos</a></h2>
+									<h4>São Paulo, <span>SP</span> <a href="#">admin</a>RU: 4393463</h4>
+									<p>
+										Sonhos são caminhos construídos pelo coração.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-txt">
+									<h2><a href="#">Guilherme Araujo Vicente</a></h2>
+									<h4>São Paulo, <span>SP</span> <a href="#">admin</a>RU: 4385785</h4>
+									<p>
+										Um dia bonito começa com um barril de esperança e um café de otimismo.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-txt">
+									<h2><a href="#">Flávio Lopes de Araújo</a></h2>
+									<h4>São Paulo, <span>SP</span> <a href="#">admin</a>RU: 4302177</h4>
+									<p>
+										Por trás de um dia difícil, há uma versão forte de você.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+			
+		</section><!--/.blog-->
+		<!--blog end -->
+
+		<!--subscription strat -->
+		<section id="contact"  class="subscription">
+			<div class="container">
+				<div class="subscribe-title text-center">
+					<h2>
+						Quer receber notificações dos seus temas favoritos?
+					</h2>
+					<p>
+						Cadastre seu e-mail e fique por dentro de todas as novidades assim que sair do forno!
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="subscription-input-group">
+							<form action="#">
+								<input type="email" class="subscription-input-form" placeholder="Coloque seu e-mail aqui">
+								<button class="appsLand-btn subscribe-btn" onclick="window.location.href='#'">
+									Criar Conta
+								</button>
+							</form>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+		</section><!--/subscription-->	
+		<!--subscription end -->
+
+		<!--footer start-->
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="footer-menu">
+		           	<div class="row">
+			           	<div class="col-sm-3">
+			           		 <div class="navbar-header">
+				                <a class="navbar-brand" href="index.html">Robin<span>BOOKS</span></a>
+				            </div><!--/.navbar-header-->
+			           	</div>
+			           	<div class="col-sm-9">
+			           		<ul class="footer-menu-item">
+			                    <li class="scroll"><a href="#home">HOME</a></li>
+			                    <li class="scroll"><a href="#works">COMO FUNCIONA</a></li>
+			                    <li class="scroll"><a href="#explore">EXPLORAR</a></li>
+			                    <li class="scroll"><a href="#blog">BLOG</a></li>
+			                    <li class="scroll"><a href="#contact">CONTATO</a></li>
+			                </ul><!--/.nav -->
+			           	</div>
+		           </div>
+				</div>
+				<div class="hm-footer-copyright">
+					<div class="row">
+						<div class="col-sm-5">
+							<span><i class="fa fa-phone"> +55  (11) 777 8888</i></span>
+						</div>
+						<div class="col-sm-7">
+							<div class="footer-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>	
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-google-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					
+				</div><!--/.hm-footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+        <!--feather.min.js-->
+        <script  src="assets/js/feather.min.js"></script>
+
+        <!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+
+        <!--slick.min.js-->
+        <script src="assets/js/slick.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		     
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>

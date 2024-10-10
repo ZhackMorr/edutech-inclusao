@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login RobinBOOKS</title>
+	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
+	<link href="/assets/css/login.css" rel="stylesheet">
+	<script defer src="/assets/js/login.js"></script> <!-- Conectando o arquivo JavaScript -->
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+		<div class="signup">
+			<form id="signupForm">
+				<label for="chk" aria-hidden="true">Inscreva-se</label>
+				<input type="text" name="txt" placeholder="User name" required="" id="username">
+				<input type="email" name="email" placeholder="Email" required="" id="signupEmail">
+				<input type="number" name="broj" placeholder="BrojTelefona" required="" id="phoneNumber">
+				<input type="password" name="pswd" placeholder="Password" required="" id="signupPassword">
+				<button type="submit" id="signupButton">Cadastre-se</button>
+			</form>
+		</div>
+
+		<div class="login">
+			<form id="loginForm">
+				<label for="chk" aria-hidden="true">Login</label>
+				<input type="email" name="email" placeholder="Email" required="" id="email">
+				<input type="password" name="pswd" placeholder="Password" required="" id="senha">
+				<button type="submit" id="loginButton">Login</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
